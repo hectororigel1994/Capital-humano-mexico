@@ -167,7 +167,7 @@ blockquote p {
   display: inline-block;
   margin: .8em 0;
   padding: .5em 1.6em;
-  color: #fff;
+  color: #fff !important;
   font-size: .8em;
 /*border-radius*/
   -webkit-border-radius: 30px;
@@ -352,7 +352,7 @@ blockquote p {
 }
 
 .header-home .navigation a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .top-slider {
@@ -517,16 +517,46 @@ blockquote p {
   background-position: center center;
 }
 
+.parallax-section2 {
+  z-index: -1;
+  clear: both;
+  background-image: url('images/banner2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.parallax-section3 {
+  z-index: -1;
+  clear: both;
+  background-image: url('images/banner3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.parallax-section4 {
+  z-index: -1;
+  clear: both;
+  background-image: url('images/banner4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
 .parallax2 {
   background-image: url('images/parallax2.jpg');
 }
 
-.parallax-section .content, .top-slider .content-header, .home-slider {
+.parallax-section, .parallax-section2, .parallax-section3, .parallax-section4, .content, .top-slider .content-header, .home-slider {
   margin: 0 auto;
   text-align: center;
 }
 
-.parallax-section .content-header, .home-slider .content-header {
+.parallax-section .parallax-section2, .parallax-section3, .parallax-section4, .content-header, .home-slider .content-header {
   padding: 145px 0 250px;
 }
 
