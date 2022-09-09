@@ -34,6 +34,19 @@ Grey #ECF0F1
   General Styling 
 ********************************************************* */
 
+
+.map-me {
+  margin:0 0 -5px;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  }
+  .map-me #map iframe {
+  width: 100%;
+  height: 378px;
+  }
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -146,11 +159,11 @@ blockquote p {
 }
 
 .curveMapUp {
-  margin-top: 52px;
+  /*margin-top: 52px;*/
 }
 
 .curveMapDown {
-  margin-top: -238px;
+ /* margin-top: -238px;*/
 }
 
 .curveGrey {
